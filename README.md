@@ -108,15 +108,16 @@ Most data you encounter will be in the form of human readable text, such as comm
 	* reading/generating json
 * [Excel and CSV data](notes/excel.ipynb) (Day 2)
 * [PDF using pdftotext](notes/pdf.ipynb) (Extracting text from Tesla's marketing brochure) (Day 2)
+* [Manipulating text from the command line](notes/text-cmd-line.ipynb) 
 * [HTML](notes/html.ipynb) (Parsing Tesla's IPO prospectus) (Day 3)
 
 There are also plenty of nontext, binary formats. You can learn more from the msds501 boot camp material for [audio processing](https://github.com/parrt/msds501/blob/master/notes/sound.ipynb) and [image processing](https://github.com/parrt/msds501/raw/master/projects/images.pdf).
 
 ## Organizing data in memory into structures
 
-* [Review object definition / usage](notes/OO.ipynb) (Day 3)
-* [Associations and dictionaries](notes/dict.ipynb) (Day 3, 4)
-* Introduction to hash table construction and discussion of [Search Engine Implementation](https://github.com/parrt/msds692/blob/master/hw/search.md) (**project**) (Day 4)
+* [Associations and dictionaries](notes/dict.ipynb) (Day 3)
+* Introduction to hash table construction and discussion of [Search Engine Implementation](https://github.com/parrt/msds692/blob/master/hw/search.md) (**project**) (Day 3)
+* [Review object definition / usage](notes/OO.ipynb) (Day 4)
 
 ## Text feature extraction
 

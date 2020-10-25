@@ -111,7 +111,7 @@ def readcsv(data):
     return header, data
 ```
 
-Here is a sample Python test script that prints out the results of our `readcsv` function:
+Here is a sample Python test script, `test_readcsv.py`, that prints out the results of our `readcsv` function:
 
 ```python
 import mycsv
@@ -239,13 +239,13 @@ JSON, a format typically used for the transmission of JavaScript data objects, i
 
 **For evaluation purposes, you must follow the order shown in that JSON. The records must be in the order of the rows found in the CSV and the order of the key names/data must follow the columns found in the CSV.**
 
-You can add the Chrome extension [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc), by the way, so that you can view JSON in the browser nicely.  You can also use `jq` to view things from the commandline:
+You can add the Chrome extension [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc), by the way, so that you can view JSON in the browser nicely.  You can also use `jq` (`brew install jq`) to view things from the commandline:
 
 <img src=figures/json-jq.png width=400>
  
 In file `csv2json.py`, write a small script that reads in the CSV using `getdata()` and then prints out the data in JSON. It also must specifically use the keys I have above: `headers`, `data`. Note that the `when` key and the others within a record are not hardcoded: they depend on the headers from the CSV input.
 
-You can use the template engine [jinja2](http://jinja.pocoo.org/docs/2.9/) or just combine strengths manually to generate JSON. (Please limit yourself to anaconda standard libs.)
+You can use the template engine [jinja2](http://jinja.pocoo.org/docs/2.9/) or just combine strings manually to generate JSON. (Please limit yourself to anaconda standard libs.)
 
 The program should read from standard input or from a filename parameter to the script (this is handled automatically for you by `getdata()`:
 
